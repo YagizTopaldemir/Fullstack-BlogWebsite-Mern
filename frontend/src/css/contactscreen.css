@@ -1,0 +1,78 @@
+.contact-container{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #ecf0f5;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+padding-bottom: 40px;
+}
+
+
+.contactpage{
+    width: 80%;
+    height: 100vh;
+    background-color: #ecf0f5;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.createemail{
+    width: 85%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    background-color: #ecf0f5;
+}
+.createemail input{
+    width: 70%;
+    height: 40px;
+    border-radius: 10px;
+    border:0px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.233);
+    outline: none;
+    padding-left: 10px;
+}
+.createemail textarea{
+    width: 80%;
+    height: 130px;
+    border-radius: 10px;
+    border:0px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.199);
+    outline: none;
+    padding: 4px 10px 0px 10px;
+}
+
+.createemail select{
+    width: 70%;
+    height: 35px;
+   
+    border: 0px;
+    background-color: white;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.199);
+    outline: none;
+    padding-left: 7px;
+}
+
+.createemail button{
+    width: 60%;
+    height: 35px;
+    border-radius: 10px;
+    border:0px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.308);
+    background-color: #32de84;
+    margin-top: 15px;
+    color: white;
+    font-size: 18px;
+    opacity: 1;
+    transition: 1s;
+}
+.createemail button:hover{
+    opacity: 0.4;
+}

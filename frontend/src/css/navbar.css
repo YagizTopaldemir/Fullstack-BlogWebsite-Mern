@@ -1,0 +1,54 @@
+.navbar-container{
+    width: 100vw;
+    height: 40vh;
+    background-image: url('https://muffingroup.com/blog/wp-content/uploads/2021/03/gr.jpg');
+    overflow: hidden;
+}
+
+.navbar{
+    width: 100vw;
+    height: 25%;
+    background-color: #13362c;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.brandname{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+.navbar-page{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.navbar-page p {
+    color: #fff;
+    font-weight: 600;
+   transition: 0.8s;
+}
+
+.navbar-page p:hover{
+    color: #0d6e55;
+    font-weight: 600;
+   border-bottom: 2px solid #0d6e55;
+}
+
+
+.navbar-text{
+    color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 9vh;
+    font-size: 25px;
+    font-weight: 600;
+}

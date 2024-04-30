@@ -1,0 +1,23 @@
+*{
+    overflow-x: hidden;
+}
+
+.homescreen{
+    width: 100vw;
+    background-color: #ecf0f5;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blogs{
+    width: 50%;
+    overflow: hidden;
+
+}
+
+.blogfrom{
+    width: 45%;
+
+    background-color:#ecf0f5;
+    overflow: hidden;
+}

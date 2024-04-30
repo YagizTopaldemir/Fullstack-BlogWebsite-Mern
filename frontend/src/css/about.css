@@ -1,0 +1,28 @@
+.About-container{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #ecf0f5;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+padding-bottom: 40px;
+}
+
+.Aboutpage{
+    width: 60%;
+    height: 100vh;
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.Aboutpage h2 {
+    text-align: center;
+}
+
+.Aboutpage p {
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 200px;
+    padding-right: 200px;
+}

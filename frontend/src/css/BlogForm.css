@@ -1,0 +1,55 @@
+.create{
+    width: 85%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    background-color: #ecf0f5;
+}
+.create input{
+    width: 70%;
+    height: 30px;
+ 
+    border:0px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.151);
+    outline: none;
+    padding-left: 10px;
+}
+.create textarea{
+    width: 80%;
+    height: 130px;
+
+    border:0px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.199);
+    outline: none;
+    padding: 4px 10px 0px 10px;
+}
+
+.create select{
+    width: 70%;
+    height: 35px;
+   
+    border: 0px;
+    background-color: white;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.199);
+    outline: none;
+    padding-left: 7px;
+}
+
+.create button{
+    width: 60%;
+    height: 35px;
+   
+    border:0px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.308);
+    background-color: #32de84;
+    margin-top: 15px;
+    color: white;
+    font-size: 18px;
+    opacity: 1;
+    transition: 1s;
+}
+.create button:hover{
+    opacity: 0.4;
+}
