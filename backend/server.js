@@ -8,8 +8,8 @@ const cors = require('cors')
 const app = express()
 
 app.use(cors({
-    origin: "https://6632056b9a01dda393e9846c--adorable-taffy-b41dab.netlify.app",
-    methods: ["GET","POST","DELET"],
+    origin: "https://66320d3934aa69b5b862ddcd--adorable-taffy-b41dab.netlify.app/",
+    methods: ["GET","POST","DELETE"],
 }))
 
 //
