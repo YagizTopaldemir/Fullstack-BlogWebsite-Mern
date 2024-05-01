@@ -13,8 +13,9 @@ import Categorycreen from './category/Categoryscreen';
 function App() {
 
   return (
-    <div className="App">
+
     <BrowserRouter>
+        <div className="App">
     <Navbar />
     <div className='pages'>
       <Routes>
@@ -28,8 +29,9 @@ function App() {
       </Routes>
     </div>
     <Bottombar />
-    </BrowserRouter>
     </div>
+    </BrowserRouter>
+
   );
 }
 
